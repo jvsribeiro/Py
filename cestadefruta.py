@@ -13,3 +13,5 @@ while True:
         delet=(input('remova sua fruta'))
         fruit.remove(f'{delet}')
         print(f'essas são as atuais {fruit}')
+    else:
+        print("Algo deu errado, tente novamente!")
